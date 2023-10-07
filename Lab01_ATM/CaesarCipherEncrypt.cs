@@ -16,6 +16,7 @@ namespace Lab01_ATM
         {
             InitializeComponent();
         }
+
         private string Uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private string Lowercase = "abcdefghijklmnopqrstuvwxyz";
 
@@ -62,7 +63,7 @@ namespace Lab01_ATM
 
             int shift = int.Parse(textBox2.Text);
             string encryptedText = CaesarCipherEncrypt1(plaintext, shift);
-            textBox1.Text = encryptedText;
+            richTextBox1.Text = encryptedText;
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

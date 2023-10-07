@@ -38,20 +38,20 @@
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
+            listBox1.HorizontalScrollbar = true;
             listBox1.ItemHeight = 20;
-            listBox1.Location = new Point(12, 102);
+            listBox1.Location = new Point(716, 59);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(776, 344);
+            listBox1.ScrollAlwaysVisible = true;
+            listBox1.Size = new Size(554, 564);
             listBox1.TabIndex = 0;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
-            listBox1.ScrollAlwaysVisible = true;
-            listBox1.HorizontalScrollbar = true;
             // 
             // input
             // 
             input.AutoSize = true;
             input.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            input.Location = new Point(12, 9);
+            input.Location = new Point(216, 9);
             input.Name = "input";
             input.Size = new Size(58, 28);
             input.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             output.AutoSize = true;
             output.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            output.Location = new Point(12, 62);
+            output.Location = new Point(979, 9);
             output.Name = "output";
             output.Size = new Size(75, 28);
             output.TabIndex = 2;
@@ -69,17 +69,19 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(85, 12);
+            textBox1.Location = new Point(12, 59);
+            textBox1.Multiline = true;
+            textBox1.AutoSize = false;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(465, 27);
+            textBox1.Size = new Size(519, 564);
             textBox1.TabIndex = 3;
             // 
             // bruteForceDecrypt
             // 
             bruteForceDecrypt.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            bruteForceDecrypt.Location = new Point(581, 12);
+            bruteForceDecrypt.Location = new Point(537, 292);
             bruteForceDecrypt.Name = "bruteForceDecrypt";
-            bruteForceDecrypt.Size = new Size(207, 78);
+            bruteForceDecrypt.Size = new Size(173, 78);
             bruteForceDecrypt.TabIndex = 4;
             bruteForceDecrypt.Text = "Brute Force Decrypt";
             bruteForceDecrypt.UseVisualStyleBackColor = true;
@@ -89,7 +91,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1282, 653);
             Controls.Add(bruteForceDecrypt);
             Controls.Add(textBox1);
             Controls.Add(output);

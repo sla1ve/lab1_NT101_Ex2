@@ -42,9 +42,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 132);
+            textBox1.Location = new Point(12, 44);
+            textBox1.Multiline = true;
+            textBox1.AutoSize = false;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(329, 27);
+            textBox1.Size = new Size(343, 394);
             textBox1.TabIndex = 0;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -60,9 +62,9 @@
             // Encrypt
             // 
             Encrypt.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            Encrypt.Location = new Point(46, 334);
+            Encrypt.Location = new Point(361, 274);
             Encrypt.Name = "Encrypt";
-            Encrypt.Size = new Size(349, 69);
+            Encrypt.Size = new Size(94, 58);
             Encrypt.TabIndex = 2;
             Encrypt.Text = "Encrypt";
             Encrypt.UseVisualStyleBackColor = true;
@@ -72,7 +74,7 @@
             // 
             input.AutoSize = true;
             input.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            input.Location = new Point(12, 73);
+            input.Location = new Point(155, 9);
             input.Name = "input";
             input.Size = new Size(58, 28);
             input.TabIndex = 3;
@@ -92,7 +94,7 @@
             // 
             shift.AutoSize = true;
             shift.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            shift.Location = new Point(12, 205);
+            shift.Location = new Point(381, 116);
             shift.Name = "shift";
             shift.Size = new Size(52, 28);
             shift.TabIndex = 5;
@@ -100,9 +102,9 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(12, 263);
+            textBox2.Location = new Point(361, 167);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(94, 27);
             textBox2.TabIndex = 6;
             textBox2.TextChanged += textBox2_TextChanged;
             // 

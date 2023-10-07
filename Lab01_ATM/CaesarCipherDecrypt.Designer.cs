@@ -41,7 +41,7 @@
             // 
             input.AutoSize = true;
             input.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            input.Location = new Point(12, 68);
+            input.Location = new Point(153, 26);
             input.Name = "input";
             input.Size = new Size(58, 28);
             input.TabIndex = 0;
@@ -60,9 +60,9 @@
             // decrypt
             // 
             decrypt.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            decrypt.Location = new Point(59, 358);
+            decrypt.Location = new Point(346, 245);
             decrypt.Name = "decrypt";
-            decrypt.Size = new Size(347, 80);
+            decrypt.Size = new Size(113, 58);
             decrypt.TabIndex = 2;
             decrypt.Text = "Decrypt";
             decrypt.UseVisualStyleBackColor = true;
@@ -70,9 +70,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 120);
+            textBox1.Location = new Point(12, 66);
+            textBox1.Multiline = true;
+            textBox1.AutoSize = false;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(328, 27);
+            textBox1.Size = new Size(328, 372);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -86,16 +88,16 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(12, 215);
+            textBox2.Location = new Point(346, 167);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(106, 27);
             textBox2.TabIndex = 5;
             // 
             // Shift
             // 
             Shift.AutoSize = true;
             Shift.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Shift.Location = new Point(12, 172);
+            Shift.Location = new Point(373, 125);
             Shift.Name = "Shift";
             Shift.Size = new Size(52, 28);
             Shift.TabIndex = 6;
